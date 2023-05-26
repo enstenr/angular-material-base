@@ -1,0 +1,18 @@
+
+<div class="row" style="margin:5px;padding:6px" >
+
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+<input matInput placeholder="Name"  >
+ </mat-form-field>
+ 
+ <mat-form-field>
+   
+  <input placeholder="Date of Birth :" matInput [matDatepicker]="picker">
+   
+  <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+  <mat-datepicker #picker></mat-datepicker>
+</mat-form-field>
+
+</form>
+</div>
