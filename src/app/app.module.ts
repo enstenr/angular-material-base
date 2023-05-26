@@ -12,7 +12,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MenuComponent } from './menu/menu.component';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component'
-import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
+
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,6 @@ import {FormControl, FormsModule, ReactiveFormsModule} from '@angular/forms';
     AppRoutingModule,
     AngularMaterialModule,
     BrowserAnimationsModule,
-    FormControl, 
     FormsModule, 
     ReactiveFormsModule
   ],
