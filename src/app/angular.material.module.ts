@@ -11,6 +11,8 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
 import {MatSelectModule} from '@angular/material/select'; 
 import { HttpClientModule } from '@angular/common/http';
+import {MatBadgeModule} from '@angular/material/badge'; 
+
 @NgModule({
   declarations: [],
   imports: [
@@ -20,7 +22,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatSelectModule
+    MatSelectModule,
+    MatBadgeModule
     ],
   providers: [],
   bootstrap: [],
@@ -31,7 +34,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
-    MatSelectModule
+    MatSelectModule,
+    MatBadgeModule
     ]
 })
 export class AngularMaterialModule { }

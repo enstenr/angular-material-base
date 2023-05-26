@@ -8,7 +8,7 @@
     <div class="col-lg-8">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="['/load-comp1']">Component1 <span class="sr-only">(current)</span></a>
+        <a class="nav-link" [routerLink]="['/load-comp1']">Component1  </a>
       </li>
       <li class="nav-item">
         <a class="nav-link" [routerLink]="['/load-comp2']">Component2</a>
@@ -20,7 +20,14 @@
     </ul>
   </div>
   <div class="col-lg-4 row">
-    
+    <div class="demo-section">
+  Icon with a badge
+  <mat-icon matBadge="15" matBadgeColor="warn">home</mat-icon>
+    <!-- Include text description of the icon's meaning for screen-readers -->
+    <span class="cdk-visually-hidden">
+      Example with a home icon with overlaid badge showing the number 15
+    </span>
+</div>
       <input class="col-lg-6 "  type="search" placeholder="Search" aria-label="Search">
       <button class="col-lg-6 btn btn-outline-success " width="50%" type="submit">Search</button>
     
