@@ -15,6 +15,7 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatBadgeModule} from '@angular/material/badge'; 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
 
 @NgModule({
   declarations: [],
@@ -29,7 +30,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatBadgeModule,
     MatIconModule,
     MatFormFieldModule,
-    MatDividerModule
+    MatDividerModule,
+    MatProgressBarModule
     ],
   providers: [],
   bootstrap: [],
@@ -44,7 +46,8 @@ import {MatDividerModule} from '@angular/material/divider';
     MatBadgeModule,
     MatIconModule,
     MatFormFieldModule,
-    MatDividerModule
+    MatDividerModule,
+    MatProgressBarModule
     ]
 })
 export class AngularMaterialModule { }
