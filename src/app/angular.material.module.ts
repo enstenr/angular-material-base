@@ -14,6 +14,7 @@ import {MatIconModule} from '@angular/material/icon';
 import { HttpClientModule } from '@angular/common/http';
 import {MatBadgeModule} from '@angular/material/badge'; 
 import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatDividerModule} from '@angular/material/divider';
 
 @NgModule({
   declarations: [],
@@ -27,7 +28,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatSelectModule, 
     MatBadgeModule,
     MatIconModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDividerModule
     ],
   providers: [],
   bootstrap: [],
@@ -41,7 +43,8 @@ import {MatFormFieldModule} from '@angular/material/form-field';
     MatSelectModule,
     MatBadgeModule,
     MatIconModule,
-    MatFormFieldModule
+    MatFormFieldModule,
+    MatDividerModule
     ]
 })
 export class AngularMaterialModule { }
