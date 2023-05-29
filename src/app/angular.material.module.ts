@@ -16,7 +16,7 @@ import {MatBadgeModule} from '@angular/material/badge';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
-
+// importing all mat modules that are needed and exporting them back to be used in the app module
 @NgModule({
   declarations: [],
   imports: [

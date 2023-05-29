@@ -15,5 +15,6 @@ import {MatFormFieldModule} from '@angular/material/form-field';
 export class Component1Component {
 toppings = new FormControl('');
 
+//initializing the list for select 
   toppingList: string[] = ['Extra cheese', 'Mushroom', 'Onion', 'Pepperoni', 'Sausage', 'Tomato'];
 }
