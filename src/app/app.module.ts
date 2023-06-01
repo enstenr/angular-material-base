@@ -15,6 +15,7 @@ import { Component2Component } from './component2/component2.component'
 
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { Component3Component } from './component3/component3.component';
+import { Component4Component } from './component4/component4.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { Component3Component } from './component3/component3.component';
     MenuComponent,
     Component1Component,
     Component2Component,
-    Component3Component
+    Component3Component,
+    Component4Component
   ],
   imports: [
     BrowserModule,
