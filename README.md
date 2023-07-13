@@ -8,6 +8,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+
+![image](https://github.com/enstenr/angular-material-base/assets/113459104/760debc6-965a-4b3d-9ea8-61e880ef6921)
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
