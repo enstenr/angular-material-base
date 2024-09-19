@@ -2,7 +2,7 @@
 
 # AngularMaterialBase
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
 
 ## Development server
 
@@ -33,6 +33,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 Repo maintained by S Rajesh 
 @enstenr
-http://srajesh.in
+ 
  
  
